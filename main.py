@@ -8,7 +8,7 @@ job = cron.new(command='export DISPLAY=:0 && export XDG_RUNTIME_DIR=/run/user/10
 
 # Configurar para que se ejecute cada minuto
 # job.setall('35 18 19 2 *')
-job.minute.on(45)
+job.minute.on(50)
 job.hour.on(18)
 job.day.on(19)
 job.month.on(2)
